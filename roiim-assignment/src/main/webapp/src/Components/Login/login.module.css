@@ -1,0 +1,62 @@
+.loginWrapper {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20vh;
+  flex-direction: column;
+}
+
+.heading {
+  font-size: 32px;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputField {
+  margin-top: 16px;
+  padding: 8px 16px;
+  border: 2px solid rgb(150, 149, 149);
+  border-radius: 4px;
+  outline: none;
+}
+
+.inputField:focus {
+  border: 2px solid #9946b9;
+}
+
+.createAccountButton {
+  display: flex;
+  align-self: center;
+  text-align: center;
+  width: fit-content;
+  padding: 4px 16px;
+
+  border-radius: 8px;
+  background-color: #a569bd;
+  border: 2px solid #a569bd;
+  outline: none;
+  font-size: 14px;
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.createAccountButton:hover {
+  background: #fff;
+  color: #a569bd;
+}
+
+.buttonformGroup {
+  display: flex;
+  align-self: center;
+}
+
+.checkButtonWrapper {
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+}

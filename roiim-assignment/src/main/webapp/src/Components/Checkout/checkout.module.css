@@ -1,0 +1,84 @@
+.home {
+  text-decoration: underline;
+  font-size: 20px;
+  font-weight: 500;
+  color: cornflowerblue;
+  cursor: pointer;
+  padding-left: 32px;
+  margin: 8px 0px 16px 0px;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 16px;
+}
+
+.label {
+  font-size: 16px;
+  font-weight: 600;
+  padding-bottom: 4px;
+}
+
+.inputField {
+  padding: 8px 16px;
+  border: 2px solid rgb(150, 149, 149);
+  border-radius: 4px;
+  outline: none;
+}
+
+.inputField:focus {
+  border: 2px solid #9946b9;
+}
+
+.payButton {
+  padding: 4px 0px;
+  margin-top: 8px;
+  border-radius: 8px;
+  background-color: #a569bd;
+  border: 2px solid #a569bd;
+  outline: none;
+  font-size: 16px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.payButton:hover {
+  background: #fff;
+  color: #a569bd;
+}
+.mandatory {
+  color: red;
+}
+.spinner {
+  position: relative;
+  top: -30px;
+  left: 101%;
+}
+
+@media only screen and (max-width: 1000px) {
+  .formGroup {
+    width: 70%;
+  }
+
+  .spinner {
+    top: 0;
+    left: 0;
+    margin-top: 8px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .home {
+    padding-left: 16px;
+    font-size: 16px;
+  }
+
+  .formGroup {
+    width: calc(100% - 16px);
+  }
+}

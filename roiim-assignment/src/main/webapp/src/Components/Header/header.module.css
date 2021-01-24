@@ -1,0 +1,15 @@
+.header {
+    display: flex;
+    align-items: center;
+    height: 54px;
+    background: #4A235A;
+    color: #fff;
+    padding-left:32px;
+    font-size:24px;
+}
+@media only screen and (max-width: 600px) {
+    .header {
+     padding-left:16px ;
+     font-size:20px;
+    }
+  }
